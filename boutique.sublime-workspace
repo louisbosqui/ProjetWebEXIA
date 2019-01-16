@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"b",
+				"body\tTag"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"tabl",
+				"tablast"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"a",
+				"author"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"s",
+				"status"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"displ",
+				"display-1"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"par",
+				"parallax1"
+			],
+			[
+				"col-md",
+				"col-md-12"
+			],
+			[
+				"col",
+				"col-lg-12"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"v",
+				"vlig"
+			],
+			[
+				"vid",
+				"videNode"
+			],
+			[
+				"bou",
+				"boutonNode"
+			],
+			[
+				"vide",
+				"videValue"
+			],
+			[
+				"cha",
+				"charAt"
+			],
+			[
+				"avat",
+				"avatar_urls"
+			],
+			[
+				"ge",
+				"getJSON"
+			],
+			[
+				"n",
+				"nbUser"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"vi",
+				"videValue"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"bouton",
+				"boutonValue"
+			],
+			[
+				"l",
+				"ligne"
+			],
+			[
+				"bout",
+				"boutonNode"
+			],
+			[
+				"c",
+				"class"
+			],
+			[
+				"baa",
+				"background-attachment\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"HEA",
+				"HEADER\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/qoodboop/Documents/code/WsWebService/action.php",
+			"settings":
+			{
+				"buffer_size": 157,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"discord",
+				"Preferences: Discord Rich Presence Settings"
+			],
+			[
+				"discorde",
+				"Discord Rich Presence: Disconnect"
+			],
+			[
+				"connec",
+				"Discord Rich Presence: Connect to Discord"
+			],
+			[
+				"connect",
+				"Discord Rich Presence: Connect to Discord"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 151.0,
+		"history":
+		[
+			"discord",
+			"Discord Rich Presence: Connect to Discord",
+			"Discord",
+			"discord",
+			"rich presence",
+			"discord",
+			"discord ",
+			"discord Rich presence Connect to Discord",
+			"discord Richpresence Connect to Discord",
+			"discord Richpresence: Connect to Discord",
+			"discord Rich presence: Connect to Discord",
+			"discord Rich Presence: Connect to Discord"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/qoodboop/Documents/code/WsWebService/BDD_base.php",
+		"/home/qoodboop/Documents/code/WsWebService/API_base.php",
+		"/home/qoodboop/Documents/code/WsWebService/commandes.sql",
+		"/home/qoodboop/Documents/code/WsWebService/singleton.php",
+		"/home/qoodboop/Documents/code/WsWebService/config.php",
+		"/home/qoodboop/Documents/code/WsWebService/test.php",
+		"/home/qoodboop/Documents/code/WsWebService/action.php",
+		"/home/qoodboop/Documents/code/WsWebService/index.html",
+		"/home/qoodboop/Documents/code/WsHtmlCss/www/index.html",
+		"/home/qoodboop/Bureau/plan incliné",
+		"/home/qoodboop/Documents/code/WsNodeJs/request.js",
+		"/home/qoodboop/Documents/code/WsNodeJs/style.css",
+		"/home/qoodboop/Documents/code/WsHtmlCss/www/style.css",
+		"/home/qoodboop/Documents/code/WsNodeJs/index.html",
+		"/home/qoodboop/Documents/code/WsJs/index.html",
+		"/home/qoodboop/Documents/code/WsJs/Js.css",
+		"/home/qoodboop/Documents/code/WsHtmlCss/www/page2.html",
+		"/var/www/html/test.php",
+		"/var/www/html/exo1.php",
+		"/home/qoodboop/Documents/code/WsHtmlCss/www/page1.php",
+		"/etc/php/7.2/apache2/php.ini",
+		"/home/qoodboop/Documents/code/WsHtmlCss/www/image/page1.php",
+		"/home/qoodboop/Documents/code/Projets/ines/index.html",
+		"/home/qoodboop/Documents/code/Projets/ines/ines.css",
+		"/var/www/test.php",
+		"/home/qoodboop/Documents/site quentin/www/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/qoodboop/Documents/code/WsWebService/action.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "boutique.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 166.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

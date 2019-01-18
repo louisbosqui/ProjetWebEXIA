@@ -1,7 +1,6 @@
 var mysql = require("mysql");
-//var app = express();
-//app.listen(process.env.PORT || 3000);
-//app.listen(port);
+var express = require('express');
+var app = express();
 const http = require('http');
 
 const hostname = '127.0.0.1';
@@ -17,17 +16,22 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
-
-/*
-app.use(function(req, res, next){
-	res.locals.connection = mysql.createConnection({
-		host     : 'localhost',
-		user     : 'root',
-		password : ' ',
-		database : 'test'
-	});
-	res.locals.connect();
-	next();
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "qoodboop",
+  password: "qoodboop",
+   database: "test"
 });
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+   var sql = "SELECT * FROM `users` ";
+  con.query(sql, function (err, result) {
+    if (err) throw err;
+    console.log(result);
+  });
+});
+/*
 app.use('/',index);
 app.use ('/users',users);*/

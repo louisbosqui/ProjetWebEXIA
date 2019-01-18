@@ -32,6 +32,16 @@ con.connect(function(err) {
     console.log(result);
   });
 });
+app.get('/list', function (req, res) {
+   // First read existing users.
+      var sql = "SELECT * FROM `users` ";
+    con.query(sql, function (err, result) {
+    if (err) throw err;
+    console.log(result);
+  });
+   });
+
+
 /*
 app.use('/',index);
 app.use ('/users',users);*/

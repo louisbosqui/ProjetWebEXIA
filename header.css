@@ -47,17 +47,30 @@
     footer{
         height: 350px;
         background-color: #232323;
+        color: white;
     }
-    .logoFooter {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-
+    .textFooter{
+        text-align: center;
+        font-size: 25px;
     }
     .listOfSchools{
         text-align: center;
         font-family: Lobster;
         color: white;
+        padding-top: 3%;
+    }
+    .socialNetworks{
+        font-size: 15px;
+        text-align: center;
+        padding: 5% 0 0 0;
+    }
+    .logoSocialNetworks{
+        font-size: 40px;
+    }
+    .rightText{
+        font-size: 15px;
+        text-align: right;
+        padding: 0 1% 0 0;
     }
     a{
         padding: 0 10px 0 10px;

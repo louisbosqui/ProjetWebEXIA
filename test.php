@@ -18,6 +18,16 @@ Name: <input type="text" name="fname">
 <input type="submit" value="Submit">
 </form> 
 
+<h2>JavaScript Can Validate Input</h2>
+
+<p>Please input a number between 1 and 10:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
 </body>
 </html>
 

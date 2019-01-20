@@ -79,16 +79,19 @@ input[name="btn1"]:hover{
 	opacity: 0.7;
 }
 
-.combobox1{
-	width: 100%;
-	margin-left: 4px;
-	box-sizing: border-box;
-	padding: 10px 0;
+.opt1{
+	background-color: #fff;
 }
 select {
   	width: 100%;
-  	padding: 16px 20px;
-  	border: none;
-  	border-radius: 4px;
-  	background-color: #f1f1f1;
+	box-sizing: border-box;
+	padding: 12px 5px;
+	background: rgba(0, 0, 0, 0.10);
+	outline: none;
+	border: none;
+	border-bottom: 1px dotted #fff;
+	color: rgb(117,117,117);
+	border-radius: 5px;
+	margin: 5px;
+	font-weight: bold;
 }

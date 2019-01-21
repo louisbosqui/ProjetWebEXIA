@@ -82,7 +82,7 @@ input[name="btn1"]:hover{
 .opt1{
 	background-color: #fff;
 }
-select {
+.select {
   	width: 100%;
 	box-sizing: border-box;
 	padding: 12px 5px;
@@ -90,8 +90,12 @@ select {
 	outline: none;
 	border: none;
 	border-bottom: 1px dotted #fff;
-	color: rgb(117,117,117);
+	color: #fff;
 	border-radius: 5px;
 	margin: 5px;
 	font-weight: bold;
+}
+
+.selected{
+color: #000;
 }

@@ -7,15 +7,15 @@ const hostname = '127.0.0.1';
 const port = 3000;
 console.log('todo list RESTful API server started on: ' + port);
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
+//const server = http.createServer((req, res) => {
+  //res.statusCode = 200;
+  //res.setHeader('Content-Type', 'text/plain');
+  //res.end('Hello World\n');
+//});
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+//server.listen(port, hostname, () => {
+//  console.log(`Server running at http://${hostname}:${port}/`);
+//});
 var con = mysql.createConnection({
   host: "localhost",
   user: "qoodboop",
@@ -23,15 +23,8 @@ var con = mysql.createConnection({
    database: "test"
 });
 
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected!");
-   var sql = "SELECT * FROM `users` ";
-  con.query(sql, function (err, result) {
-    if (err) throw err;
-    console.log(result);
-  });
-});
+
+
 app.get('/list', function (req, res) {
    // First read existing users.
       var sql = "SELECT * FROM `users` ";
@@ -40,6 +33,7 @@ app.get('/list', function (req, res) {
     console.log(result);
   });
    });
+
 
 
 /*

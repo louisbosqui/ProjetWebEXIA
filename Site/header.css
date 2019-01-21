@@ -3,7 +3,7 @@
     .header{
         height: 145px;
         background-color: #232323;
-        color: white;
+        color: #444;
 
     }
     .logoHeader {
@@ -13,15 +13,19 @@
     }
     .title {
         text-align: center;
+        color: #444;
 
     }
     .Localisation{
         float:  right;
         padding: 3% 2% 0 0;
+        color: #444;
     }
     h1{
         margin: 0 0 0 0;
         padding: 0 0 0 0;
+        color: #444;
+
     }
 
     /*navigation*/
@@ -35,7 +39,7 @@
         .listMenu{
             height: 30px;
             width: 100%;
-            background-color: #232323;
+            background-color: #111;
             position: sticky;
             top: 0;
 
@@ -46,8 +50,8 @@
 
     footer{
         height: 350px;
-        background-color: #232323;
-        color: white;
+        background-color: #111;
+        color: #444;
     }
     .textFooter{
         text-align: center;
@@ -56,7 +60,7 @@
     .listOfSchools{
         text-align: center;
         font-family: Lobster;
-        color: white;
+        color: #444;
         padding-top: 3%;
     }
     .socialNetworks{
@@ -77,5 +81,8 @@
     }
 
     a:visited{
+        color: #444;
+    }
+    a:hover{
         color: white;
     }

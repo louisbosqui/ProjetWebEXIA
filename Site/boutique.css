@@ -1,0 +1,23 @@
+.top-container{
+    display: flex;
+    justify-content: center;
+}
+.title1 {
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.rechearch-container {
+    display: flex;
+    justify-content: right;
+}
+.sort {
+    display: flex;
+    justify-content: right;
+}
+.text-container {
+    padding: 0 1% 0 0;
+}
+.text-field {
+    padding: 0 2% 0 0;
+}

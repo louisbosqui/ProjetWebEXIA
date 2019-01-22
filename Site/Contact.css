@@ -1,0 +1,57 @@
+.general-container {
+    background-image: url("Sans titre.png");
+    background-repeat: no-repeat;
+ 
+}
+.top-container{
+    display: flex;
+    justify-content: space-around;
+}
+.title1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(232,150,29);
+}
+.mid-container {
+    font-size: 20px;
+
+}
+.mid-left-container {
+    display: flex;
+    justify-content: space-around;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 2% 2%;
+    color: rgb(232,150,29);
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 2% 2%;
+    color: rgb(232,150,29);
+}
+.facebook{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2% 2% 2%;
+    color: rgb(232,150,29);
+}
+.i {
+    font-size: 40px;
+    text-align: center;
+}
+.phone-number {
+    color: rgb(232,150,29);
+    text-decoration: underline;
+    text-decoration-color: rgb(232,150,29);
+}
+p {
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+iframe{
+    width: 600px;
+    height: 400px;
+}

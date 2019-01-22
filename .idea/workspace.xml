@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6295892a-7222-40e6-96fc-c0513f91815e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Footer.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site/Footer.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Header.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site/Header.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Site/Contact.css" afterDir="false" />
     </list>
     <list id="9e7c2e3b-5475-4fc3-b745-29695802722c" name="ngvhufjn,;" comment="ngvhufjn,;">
       <changelist_data name="riviere-lucas" email="33116227+riviere-lucas@users.noreply.github.com" date="1548149565000" />
@@ -36,20 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Site/Header.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Site/Contact.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -98,7 +95,6 @@
         <option value="$PROJECT_DIR$/Site/footer.html" />
         <option value="$PROJECT_DIR$/Site/Header.html" />
         <option value="$PROJECT_DIR$/Site/Contact.html" />
-        <option value="$PROJECT_DIR$/Site/Contact.css" />
         <option value="$PROJECT_DIR$/Site/header.css" />
         <option value="$PROJECT_DIR$/Site/Footer.php" />
         <option value="$PROJECT_DIR$/Site/Header.php" />
@@ -108,6 +104,7 @@
         <option value="$PROJECT_DIR$/Site/Contact.php" />
         <option value="$PROJECT_DIR$/Site/Footer.inc.php" />
         <option value="$PROJECT_DIR$/Site/Header.inc.php" />
+        <option value="$PROJECT_DIR$/Site/Contact.css" />
       </list>
     </option>
   </component>
@@ -185,7 +182,7 @@
       <workItem from="1547800218353" duration="16906000" />
       <workItem from="1547832157566" duration="2202000" />
       <workItem from="1548058841378" duration="4030000" />
-      <workItem from="1548144360580" duration="18413000" />
+      <workItem from="1548144360580" duration="18492000" />
     </task>
     <task id="LOCAL-00001" summary="footer">
       <created>1547804943826</created>
@@ -275,7 +272,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48843000" />
+    <option name="totallyTimeSpent" value="48922000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -514,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/Contact.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Site/Footer.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -534,6 +524,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Header.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Site/Footer.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -541,10 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/Header.inc.php">
+    <entry file="file://$PROJECT_DIR$/Site/Contact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>

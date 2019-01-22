@@ -8,7 +8,7 @@
 
     <?php require_once('Header.inc.php'); ?>
 <body>
-
+<br>
 <div class="general-container">
     <div class="top-container">
         <span class="title1">Contactez nous ou venez nous directement nous voir</span>

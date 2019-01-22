@@ -2,6 +2,7 @@
     <!-- First text -->
     <p class="textFooter">CESI EXIA - Pavillon Martel, Europôle de l'arbois, 13545 Aix-en-Provence, France</p>
     <!--URL of schools-->
+    <br>
     <div class="listOfSchools">
         <a href="https://aix-en-provence.cesi.fr/?_ga=2.114009923.590779367.1547800784-1706225609.1547800784&_gac=1.125343864.1547800784.Cj0KCQiAj4biBRC-ARIsAA4WaFjYxiNpSLZoPIN84RYiwfKSwVEaqg8-sQDwLptsf7Fn-myUXCEus1EaAoYHEALw_wcB">Aix-en-Provence</a>
         <a href="https://angouleme.cesi.fr/?_ga=2.252363725.590779367.1547800784-1706225609.1547800784&_gac=1.192435800.1547800852.Cj0KCQiAj4biBRC-ARIsAA4WaFjYxiNpSLZoPIN84RYiwfKSwVEaqg8-sQDwLptsf7Fn-myUXCEus1EaAoYHEALw_wcB">Angoulème</a>

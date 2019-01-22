@@ -1,3 +1,14 @@
+<?php 
+
+/**
+ * 
+ */
+class boutique  
+{
+	
+}
+
+ ?>
 <!DOCTYPE html>
 <html>
 <head>

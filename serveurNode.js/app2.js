@@ -22,8 +22,7 @@ con.connect(function(err) {
 
 const hostname = '127.0.0.1';
 const port = '3001';
-
-
+app.listen(port);
 console.log(`Server running at http://${hostname}:${port}/`);
 
 
@@ -48,7 +47,7 @@ app.delete('/', function (req, res) {
 })
 
 app.get('/list', function (req, res) {
-    var sql = "SELECT * FROM `users` ";
+    var sql = "SELECT * FROM `TB_USER` ";
     con.query(sql, function (err, result) {
     if (err) throw err;
     //console.log(result);
@@ -60,11 +59,11 @@ app.get('/list', function (req, res) {
 //TEST GET AVEC PARAMS 
 
 app.get('/api/users', function(req, res) {
-  var user_id = req.param('id');
-  var token = req.param('token');
-  var geo = req.param('geo');  
+  var user_id = req.params('id');
+  var token = req.params('token');
+  var geo = req.params('geo');  
 
-  res.send(user_id + ' ' + token + ' ' + geo);
+  res.send('uid'+ user_id + ' token=' + token + 'geo= ' + geo);
 });
 
 // POST http://localhost:8080/api/users

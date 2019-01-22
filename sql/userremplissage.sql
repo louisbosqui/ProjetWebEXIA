@@ -1,0 +1,1 @@
+INSERT INTO `TB_USER` (`ID_Utilisateur`, `Nom_Utilisateur`, `Prenom_Utilisateur`, `Mail_Utilisateur`, `Mdp_Utilisateur`, `Etat_Connexion_Utilisateur`) VALUES (NULL, 'ammar', 'diarra', 'ammar.diarra@viacesi.fr', 'test', '1');

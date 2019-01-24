@@ -1,89 +1,42 @@
-var express = require("express");
-var app = express();
-var mysql = require("mysql");
- var bodyParser     =        require("body-parser");
-
-app.use(bodyParser.urlencoded({ extended: true }));
-
-app.use(bodyParser.json());
-
-var con = mysql.createConnection({
-  host: "localhost",
-  user: "qoodboop",
-  password: "qoodboop",
-   database: "test1"
-});
-
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected!");
-   //
-});
-
-const hostname = '127.0.0.1';
-const port = '3001';
-app.listen(port);
-console.log(`Server running at http://${hostname}:${port}/`);
-
-
-app.get("/url", (req, res, next) => {
- res.json(["Tony","Lisa","Michael","Ginger","Food"]);
-});
-
-
-app.post('/', function (req, res) {
-  res.send('POST request to the homepage')
-})
-
-app.put('/', function (req, res) {
-  res.send('PUT request to the homepage')
-})
-
-app.delete('/', function (req, res) {
-  res.send('POST request to the homepage')
-})
-
-
-
-//TEST GET AVEC PARAMS 
-
-app.get('/api/users', function(req, res) {
-  var user_id = req.params('id');
-  var token = req.params('token');
-  var geo = req.params('geo');  
-  res.send('uid'+ user_id + ' token=' + token + 'geo= ' + geo);
-});
-
-// POST http://localhost:8080/api/users
-// parameters sent with 
-app.post('/api/users', function(req, res) {
-    var user_id = req.body.id;
-    var token = req.body.token;
-    var geo = req.body.geo;
-    res.send(user_id + ' ' + token + ' ' + geo);
-});
-
-//var methodes = require ('methodes.js');
-
-// app.get('/:test/:id', function(req, res) {
-//   var user_id = req.params.id;
-//   var test = req.params.test;
-
-//   res.send('uid'+ user_id + ' test=' + test );
-// });q
+var con=require('../dbconnection'); //reference of dbconnection.js
 
 app.delete('/users/:id/', function(req, res) {
   var user_id = req.params.id;
   var sql = "DELETE FROM `TB_USER` WHERE ID_Utilisateur  = '"+user_id+"' ";
     con.query(sql, function (err, result) {
     if (err) throw err;
-    //console.log(result);
-    res.send(result)
-  
-
-
+    res.send(result);
 });
 });
+
+let USER = {
+  DeleteUser:function($id){
+    var sql = "DELETE FROM `TB_USER` WHERE ID_Utilisateur  = '"+user_id+"' ";
+    con.query(sql, function (err, result) {
+      if (err) throw err;
+      res.send(result);
+    });
+    return 
+  },
+  GetUser:function($id){
+    var sql = "SELECT * FROM `TB_USER` WHERE ID_Utilisateur = '"+user_id+"'  ";
+    con.query(sql, function (err, result) {
+      if (err) throw err;
+      res.send(result);
+    });
+    return 
+  },
+  GetUserAll:function(){
+
+  },
+  PostUser:function(){
+
+  },
+  PutUser:function(){
+
+  }
+
+}
 
 app.get('/users', function (req, res) {
     var sql = "SELECT * FROM `TB_USER` ";

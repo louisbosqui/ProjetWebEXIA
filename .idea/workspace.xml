@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6295892a-7222-40e6-96fc-c0513f91815e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Site/view/Produit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Boutique.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Boutique.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Connexion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Contact.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Inscription.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Sans titre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/Slider.css~d745ff6b72ca7603256591dfcd19c55d36281e74" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/sidebare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/sidebare.js~d745ff6b72ca7603256591dfcd19c55d36281e74" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/sliders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/sliders.html~d745ff6b72ca7603256591dfcd19c55d36281e74" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/style1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Site/style2.css" beforeDir="false" />
     </list>
     <list id="9e7c2e3b-5475-4fc3-b745-29695802722c" name="ngvhufjn,;" comment="ngvhufjn,;">
       <changelist_data name="riviere-lucas" email="33116227+riviere-lucas@users.noreply.github.com" date="1548149565000" />
@@ -37,94 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Site/view/Boutique.php">
+        <entry file="file://$PROJECT_DIR$/Site/Boutique.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="105" column="143" lean-forward="true" selection-start-line="105" selection-start-column="143" selection-end-line="105" selection-end-column="143" />
-              <folding>
-                <element signature="e#8#19#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/view/Produit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/public/css/style2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1512">
-              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/view/Connexion.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/view/Header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/public/css/header.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/view/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/view/Contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/public/css/style1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/view/Inscription.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            <state relative-caret-position="23">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -139,11 +34,6 @@
         <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>button</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -173,34 +63,23 @@
         <option value="$PROJECT_DIR$/Slider.css" />
         <option value="$PROJECT_DIR$/Site/Slider.css" />
         <option value="$PROJECT_DIR$/Site/boutique.css" />
+        <option value="$PROJECT_DIR$/Site/Boutique.html" />
         <option value="$PROJECT_DIR$/Site/Connexion.html" />
+        <option value="$PROJECT_DIR$/Site/header.css" />
         <option value="$PROJECT_DIR$/Site/footer.html" />
+        <option value="$PROJECT_DIR$/Site/Header.html" />
         <option value="$PROJECT_DIR$/Site/Contact.html" />
         <option value="$PROJECT_DIR$/Site/Contact.css" />
-        <option value="$PROJECT_DIR$/Site/header.php" />
-        <option value="$PROJECT_DIR$/Site/Boutique.html" />
+        <option value="C:/xampp/htdocs/Site/Boutique.php" />
         <option value="$PROJECT_DIR$/Site/Boutique.php" />
-        <option value="$PROJECT_DIR$/Site/style2.css" />
-        <option value="$PROJECT_DIR$/Site/Header.html" />
-        <option value="$PROJECT_DIR$/Site/header.css" />
-        <option value="$PROJECT_DIR$/Site/view/Connexion.html" />
-        <option value="$PROJECT_DIR$/Site/view/Inscription.html" />
-        <option value="$PROJECT_DIR$/Site/view/Contact.html" />
-        <option value="$PROJECT_DIR$/Site/public/css/style1.css" />
-        <option value="$PROJECT_DIR$/Site/view/footer.html" />
-        <option value="$PROJECT_DIR$/Site/public/css/header.css" />
-        <option value="$PROJECT_DIR$/Site/view/Header.html" />
-        <option value="$PROJECT_DIR$/Site/public/css/style2.css" />
-        <option value="$PROJECT_DIR$/Site/view/Produit.php" />
-        <option value="$PROJECT_DIR$/Site/view/Boutique.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
-    <option name="width" value="814" />
-    <option name="height" value="867" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,6 +87,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,43 +100,10 @@
               <item name="ProjetWebEXIA" type="462c0819:PsiDirectoryNode" />
               <item name="Site" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProjetWebEXIA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetWebEXIA" type="462c0819:PsiDirectoryNode" />
-              <item name="Site" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetWebEXIA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetWebEXIA" type="462c0819:PsiDirectoryNode" />
-              <item name="Site" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetWebEXIA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetWebEXIA" type="462c0819:PsiDirectoryNode" />
-              <item name="Site" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetWebEXIA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetWebEXIA" type="462c0819:PsiDirectoryNode" />
-              <item name="Site" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetWebEXIA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetWebEXIA" type="462c0819:PsiDirectoryNode" />
-              <item name="Site" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,12 +114,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\louis\PhpstormProjects\ProjetWebEXIA\Site\view" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rivie\PhpstormProjects\ProjetWebEXIA\Site" />
     </key>
@@ -306,9 +150,10 @@
       <workItem from="1547832157566" duration="2202000" />
       <workItem from="1548058841378" duration="4030000" />
       <workItem from="1548144360580" duration="13727000" />
-      <workItem from="1548230419570" duration="11323000" />
-      <workItem from="1548248585615" duration="13784000" />
-      <workItem from="1548406392388" duration="9480000" />
+      <workItem from="1548235647496" duration="57000" />
+      <workItem from="1548248633306" duration="3534000" />
+      <workItem from="1548259660444" duration="611000" />
+      <workItem from="1548318723700" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="footer">
       <created>1547804943826</created>
@@ -394,18 +239,11 @@
       <option name="project" value="LOCAL" />
       <updated>1548150850522</updated>
     </task>
-    <task id="LOCAL-00013" summary="HTML UPDATES">
-      <created>1548234802719</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1548234802719</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82167000" />
+    <option name="totallyTimeSpent" value="49883000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -417,10 +255,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="974" height="1087" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22493573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26528385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -432,34 +270,32 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49614397" weight="0.3526245" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50385606" side_tool="true" weight="0.3526245" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49627262" weight="0.32669324" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32968128" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5037274" side_tool="true" weight="0.32669324" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32978722" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15745501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06396589" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49614397" visible="true" weight="0.3526245" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50385606" side_tool="true" visible="true" weight="0.3526245" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32978722" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4989339" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,8 +354,7 @@
     <MESSAGE value="ngvhufjn,;" />
     <MESSAGE value="blal" />
     <MESSAGE value="test" />
-    <MESSAGE value="HTML UPDATES" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML UPDATES" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />
@@ -534,100 +369,113 @@
     <entry file="file://$PROJECT_DIR$/Home.php" />
     <entry file="file://$PROJECT_DIR$/Cesi_Logo_INGENIEUR_quadri.png" />
     <entry file="file://$PROJECT_DIR$/Header.php" />
-    <entry file="file://$PROJECT_DIR$/Site/Inscription.html" />
-    <entry file="file://$PROJECT_DIR$/Site/style1.css" />
+    <entry file="file://$PROJECT_DIR$/Site/Inscription.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/style1.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/action.php" />
-    <entry file="file://$PROJECT_DIR$/Site/sliders.html" />
-    <entry file="file://$PROJECT_DIR$/Site/sidebare.js" />
+    <entry file="file://$PROJECT_DIR$/Site/sidebare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/boutique.html" />
     <entry file="file://$PROJECT_DIR$/Site/boutique.css" />
-    <entry file="file://$PROJECT_DIR$/Site/Slider.css" />
-    <entry file="file://$PROJECT_DIR$/Site/Contact.html" />
-    <entry file="file://$PROJECT_DIR$/Site/Contact.css" />
-    <entry file="file://$PROJECT_DIR$/Site/header.php" />
-    <entry file="file://$PROJECT_DIR$/Site/Connexion.html" />
-    <entry file="file://$PROJECT_DIR$/Site/Boutique.html" />
-    <entry file="file://$PROJECT_DIR$/Site/footer.html" />
-    <entry file="file://$PROJECT_DIR$/Site/Header.html" />
-    <entry file="file://$PROJECT_DIR$/Site/Boutique.php" />
-    <entry file="file://$PROJECT_DIR$/Site/style2.css" />
-    <entry file="file://$PROJECT_DIR$/Site/header.css" />
-    <entry file="file://$PROJECT_DIR$/Site/sliders.html~d745ff6b72ca7603256591dfcd19c55d36281e74" />
-    <entry file="file://$PROJECT_DIR$/Site/Slider.css~d745ff6b72ca7603256591dfcd19c55d36281e74" />
-    <entry file="file://$PROJECT_DIR$/Site/sidebare.js~d745ff6b72ca7603256591dfcd19c55d36281e74" />
-    <entry file="file://$PROJECT_DIR$/Site/banner.jpg" />
-    <entry file="file://$PROJECT_DIR$/Site/Logo.jpg" />
-    <entry file="file://$PROJECT_DIR$/Site/Sans titre.png" />
-    <entry file="file://$PROJECT_DIR$/Site/view/Connexion.html">
+    <entry file="file://$PROJECT_DIR$/Site/Logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Connexion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="187">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/public/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Site/view/footer.html">
+    <entry file="file://$PROJECT_DIR$/Site/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/public/css/style1.css">
+    <entry file="file://$PROJECT_DIR$/Site/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
+        <state relative-caret-position="374">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/view/Inscription.html">
+    <entry file="file://$PROJECT_DIR$/Site/Header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="374">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/view/Header.html">
+    <entry file="file://$PROJECT_DIR$/Site/Boutique.html" />
+    <entry file="file://$PROJECT_DIR$/Site/Slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/view/Contact.html">
+    <entry file="file://C:/xampp/htdocs/Site/Boutique.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+        <state relative-caret-position="161">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/public/css/style2.css">
+    <entry file="file://$PROJECT_DIR$/Site/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Slider.css~d745ff6b72ca7603256591dfcd19c55d36281e74">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sidebare.js~d745ff6b72ca7603256591dfcd19c55d36281e74">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1512">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        <state relative-caret-position="-1518" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serveurNode.js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sliders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/view/Produit.php">
+    <entry file="file://$PROJECT_DIR$/Site/Contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        <state relative-caret-position="437">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/view/Boutique.php">
+    <entry file="file://$PROJECT_DIR$/Site/Contact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="143" lean-forward="true" selection-start-line="105" selection-start-column="143" selection-end-line="105" selection-end-column="143" />
-          <folding>
-            <element signature="e#8#19#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/Boutique.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

@@ -153,7 +153,7 @@ app.put('/users', function(req, res) {
               console.log(sql);
                 con.query(sql, function (err, response) {
                   if (err) throw err;
-                                    console.log('TEST2');
+                  console.log('TEST2');
 
                   //console.log(response);
                   //res.end(response); 

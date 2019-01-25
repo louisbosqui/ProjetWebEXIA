@@ -1,16 +1,17 @@
-var con=require('../dbconnection'); //reference of dbconnection.js
+var con=require('./bdd'); //reference of dbconnection.js
 
-app.delete('/users/:id/', function(req, res) {
+/*app.delete('/users/:id/', function(req, res) {
   var user_id = req.params.id;
   var sql = "DELETE FROM `TB_USER` WHERE ID_Utilisateur  = '"+user_id+"' ";
     con.query(sql, function (err, result) {
     if (err) throw err;
     res.send(result);
 });
-});
+});*/
 
 let USER = {
-  DeleteUser:function($id){
+  DeleteUser:function(req,res){
+      var user_id = req.params.id;
     var sql = "DELETE FROM `TB_USER` WHERE ID_Utilisateur  = '"+user_id+"' ";
     con.query(sql, function (err, result) {
       if (err) throw err;
@@ -18,7 +19,8 @@ let USER = {
     });
     return 
   },
-  GetUser:function($id){
+  GetUser:function(req,res){
+          var user_id = req.params.id;
     var sql = "SELECT * FROM `TB_USER` WHERE ID_Utilisateur = '"+user_id+"'  ";
     con.query(sql, function (err, result) {
       if (err) throw err;
@@ -26,15 +28,15 @@ let USER = {
     });
     return 
   },
-  GetUserAll:function(){
+  GetUserAll:function(req,res){
     var sql = "SELECT * FROM `TB_USER` ";
     con.query(sql, function (err, result) {
     if (err) throw err;
     //console.log(result);
     res.send(result)
-    }
+    });
   },
-  PostUser:function(){
+  PostUser:function(req,res){
     let nom = req.body.Nom;
     let  user = req.body.Prenom;
     let mail = req.body.Mail;
@@ -48,7 +50,7 @@ let USER = {
     res.send(result); 
     });
   },
-  PutUser:function(){
+  PutUser:function(req,res){
   
   let id = req.body.ID ;
   let nom = req.body.Nom;
@@ -76,7 +78,7 @@ let USER = {
               console.log(sql);
                 con.query(sql, function (err, response) {
                   if (err) throw err;
-                                    console.log('TEST2');
+                   console.log('TEST2');
 
                   //console.log(response);
                   //res.end(response); 
@@ -84,13 +86,13 @@ let USER = {
              }
                 if (mail){
 
-              sql = "UPDATE `TB_USER` SET  Mail_Utilisateur = '"+mail+"' WHERE ID_Utilisateur="+id+"";
-              console.log(sql);
-                con.query(sql, function (err, result) {
-                  if (err) throw err;
-                  //console.log(result);
-                  //res.end(result); 
-                });
+                      sql = "UPDATE `TB_USER` SET  Mail_Utilisateur = '"+mail+"' WHERE ID_Utilisateur="+id+"";
+                      console.log(sql);
+                      con.query(sql, function (err, result) {
+                      if (err) throw err;
+                      //console.log(result);
+                      //res.end(result); 
+                    });
              }
              if (mdp){
 
@@ -116,7 +118,7 @@ let USER = {
 
 }
 
-app.get('/users', function (req, res) {
+/*app.get('/users', function (req, res) {
     var sql = "SELECT * FROM `TB_USER` ";
     con.query(sql, function (err, result) {
     if (err) throw err;
@@ -220,4 +222,6 @@ app.put('/users', function(req, res) {
                   });
                };
     };
-});
+}); */
+
+module.exports = USER ; 

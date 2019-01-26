@@ -1,3 +1,4 @@
+
 <!--header-->
 <head>
     <br>
@@ -14,6 +15,7 @@
             Aix en Provence<br/>
             Domaine de l'arbois
         </p>
+
     </div>
     <div class="title">
         <h1>CESI EXIA BDE</h1>
@@ -31,3 +33,24 @@
     <a class="menu" href="#">Contact</a>
     <a class="menu" href="#">Deconnexion</a>
 </div>
+
+       <?php 
+require ('./vendor/autoload.php');
+ $client = new GuzzleHttp\Client();
+  $res = $client->get('http://127.0.0.1:8080/api/users/', [
+     
+  ]);
+/*$res = $client->post('http://127.0.0.1:8080/api/users/', [
+    'auth' =>  ['user', 'pass']
+]);
+ $res = $client->put('http://127.0.0.1:8081/api/users/', [
+     'ID' => 1 ,
+     'Mdp'=> 'ok'
+
+ ]);*/
+echo $res->getStatusCode();           // 200
+echo $res->getHeader('content-type'); // 'application/json; charset=utf8'
+echo $res->getBody();                 // {"type":"User"...'
+//var_export($res->json()); 
+//exit();
+?> 

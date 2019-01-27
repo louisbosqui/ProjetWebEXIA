@@ -24,10 +24,33 @@ router.get('/', function (req, res) {
 // // Export API routes
 // module.exports = router;
 
+const jwt = require('jsonwebtoken');
+
 
 
 
 var user = require("../model/methodes")
+
+/** verifyToken method - this method verifies token */
+function verifyToken(req, res, next){
+      //Request header with authorization key
+    const bearerHeader = req.headers['authorization'];
+    
+    //Check if there is  a header
+    if(typeof bearerHeader !== 'undefined'){
+        const bearer = bearerHeader.split(' ');
+        
+        //Get Token arrray by spliting
+        const bearerToken = bearer[1];
+        req.token = bearerToken;
+        //call next middleware
+        //console.log(req.token);
+        next();
+	}else{
+		res.sendStatus(403);
+	}
+}
+
 
 router.route('/users/:id/')
         .delete(user.DeleteUser)
@@ -38,6 +61,27 @@ router.route('/users')
         .post(user.PostUser)
         .put(user.PutUser)
 
+router.route('/signin')
+		.post(user.Signin)
+
+/*router.route('/products')
+		.post(user.test)
+*/		
+router.post('/products',verifyToken, (req, res) => {
+
+    jwt.verify(req.token, 'secret', (err, authData)=>{
+        if(err){
+            res.sendStatus(403);
+            //res.send(req.token)
+            //console.log(err);
+        }else{
+            res.json({
+                msg: "A new post is created",
+                authData
+            });
+        }
+    });
+});
 
 
 module.exports = router;

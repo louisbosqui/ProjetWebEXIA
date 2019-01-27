@@ -2,19 +2,23 @@
 #        Script MySQL.
 #------------------------------------------------------------
 
-
 #------------------------------------------------------------
 # Table: TB_USER
 #------------------------------------------------------------
 
 CREATE TABLE TB_USER(
-        ID_Utilisateur             Int  Auto_increment  NOT NULL ,
-        Nom_Utilisateur            Varchar (50) NOT NULL ,
-        Prenom_Utilisateur         Varchar (50) NOT NULL ,
-        Mail_Utilisateur           Varchar (255) NOT NULL ,
-        Mdp_Utilisateur            Varchar (255) NOT NULL ,
-        Etat_Connexion_Utilisateur Boolean
+        ID_Utilisateur Int  Auto_increment  NOT NULL ,
+        Nom            Varchar (50) NOT NULL ,
+        Prenom         Varchar (50) NOT NULL ,
+        Mail           Varchar (50) NOT NULL ,
+        PassWord       Varchar (50) NOT NULL ,
+        Etat_Connexion Boolean  NULL ,
+        ID_Statut      Int NOT NULL ,
+        ID_CENTRE      Int NOT NULL
 ,CONSTRAINT TB_USER_PK PRIMARY KEY (ID_Utilisateur)
+
+,CONSTRAINT TB_USER_Type_Statut_FK FOREIGN KEY (ID_Statut) REFERENCES Type_Statut(ID_Statut)
+,CONSTRAINT TB_USER_CENTRE_CESI0_FK FOREIGN KEY (ID_CENTRE) REFERENCES CENTRE_CESI(ID_CENTRE)
 );
 
 
@@ -26,9 +30,9 @@ CREATE TABLE TB_COMMANDE(
         ID_Commande    Int  Auto_increment  NOT NULL ,
         Prix_Commande  DECIMAL (15,3)  NOT NULL ,
         ID_Utilisateur Int NOT NULL
-,CONSTRAINT TB_COMMANDE_PK PRIMARY KEY (ID_Commande)
+        ,CONSTRAINT TB_COMMANDE_PK PRIMARY KEY (ID_Commande)
 
-,CONSTRAINT TB_COMMANDE_TB_USER_FK FOREIGN KEY (ID_Utilisateur) REFERENCES TB_USER(ID_Utilisateur)
+        ,CONSTRAINT TB_COMMANDE_TB_USER_FK FOREIGN KEY (ID_Utilisateur) REFERENCES TB_USER(ID_Utilisateur)
 );
 
 
@@ -40,9 +44,9 @@ CREATE TABLE TB_CATEGORIE(
         ID_Categorie   Int  Auto_increment  NOT NULL ,
         Nom_Categorie  Varchar (50) NOT NULL ,
         ID_Utilisateur Int NOT NULL
-,CONSTRAINT TB_CATEGORIE_PK PRIMARY KEY (ID_Categorie)
+        ,CONSTRAINT TB_CATEGORIE_PK PRIMARY KEY (ID_Categorie)
 
-,CONSTRAINT TB_CATEGORIE_TB_USER_FK FOREIGN KEY (ID_Utilisateur) REFERENCES TB_USER(ID_Utilisateur)
+        ,CONSTRAINT TB_CATEGORIE_TB_USER_FK FOREIGN KEY (ID_Utilisateur) REFERENCES TB_USER(ID_Utilisateur)
 );
 
 
@@ -59,9 +63,9 @@ CREATE TABLE TB_PRODUIT(
         Nombre_Vendu        Int ,
         Stock               Int NOT NULL ,
         ID_Categorie        Int NOT NULL
-,CONSTRAINT TB_PRODUIT_PK PRIMARY KEY (ID_Produit)
+        ,CONSTRAINT TB_PRODUIT_PK PRIMARY KEY (ID_Produit)
 
-,CONSTRAINT TB_PRODUIT_TB_CATEGORIE_FK FOREIGN KEY (ID_Categorie) REFERENCES TB_CATEGORIE(ID_Categorie)
+        ,CONSTRAINT TB_PRODUIT_TB_CATEGORIE_FK FOREIGN KEY (ID_Categorie) REFERENCES TB_CATEGORIE(ID_Categorie)
 );
 
 
@@ -73,10 +77,10 @@ CREATE TABLE Contenir(
         ID_Commande Int NOT NULL ,
         ID_Produit  Int NOT NULL ,
         Quantitee   Int NOT NULL
-,CONSTRAINT Contenir_PK PRIMARY KEY (ID_Commande,ID_Produit)
+        ,CONSTRAINT Contenir_PK PRIMARY KEY (ID_Commande,ID_Produit)
 
-,CONSTRAINT Contenir_TB_COMMANDE_FK FOREIGN KEY (ID_Commande) REFERENCES TB_COMMANDE(ID_Commande)
-,CONSTRAINT Contenir_TB_PRODUIT0_FK FOREIGN KEY (ID_Produit) REFERENCES TB_PRODUIT(ID_Produit)
+        ,CONSTRAINT Contenir_TB_COMMANDE_FK FOREIGN KEY (ID_Commande) REFERENCES TB_COMMANDE(ID_Commande)
+        ,CONSTRAINT Contenir_TB_PRODUIT0_FK FOREIGN KEY (ID_Produit) REFERENCES TB_PRODUIT(ID_Produit)
 );
 
 
@@ -87,10 +91,10 @@ CREATE TABLE Contenir(
 CREATE TABLE Gerer(
         ID_Utilisateur Int NOT NULL ,
         ID_Produit     Int NOT NULL
-,CONSTRAINT Gerer_PK PRIMARY KEY (ID_Utilisateur,ID_Produit)
+        ,CONSTRAINT Gerer_PK PRIMARY KEY (ID_Utilisateur,ID_Produit)
 
-,CONSTRAINT Gerer_TB_USER_FK FOREIGN KEY (ID_Utilisateur) REFERENCES TB_USER(ID_Utilisateur)
-,CONSTRAINT Gerer_TB_PRODUIT0_FK FOREIGN KEY (ID_Produit) REFERENCES TB_PRODUIT(ID_Produit)
+        ,CONSTRAINT Gerer_TB_USER_FK FOREIGN KEY (ID_Utilisateur) REFERENCES TB_USER(ID_Utilisateur)
+        ,CONSTRAINT Gerer_TB_PRODUIT0_FK FOREIGN KEY (ID_Produit) REFERENCES TB_PRODUIT(ID_Produit)
 );
 
 

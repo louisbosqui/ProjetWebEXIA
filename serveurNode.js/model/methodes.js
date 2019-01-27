@@ -8,8 +8,67 @@ var con=require('./bdd'); //reference of dbconnection.js
     res.send(result);
 });
 });*/
+const jwt = require('jsonwebtoken');
+
+
+
+
 
 let USER = {
+  Signin:function(req,res){
+     const user = {
+        id: 2,
+        username: "Ammar",
+        email: "john.doe@test.com"
+    }
+     jwt.sign({user},'secret', { expiresIn: 60 * 60 * 60 }, (err, token) => {
+        res.json({token});
+    });
+  },
+  test:function(req,res){
+        //Request header with authorization key
+    const bearerHeader = req.headers['authorization'];
+    
+    //Check if there is  a header
+    if(typeof bearerHeader !== 'undefined'){
+        const bearer = bearerHeader.split(' ');
+        
+        //Get Token arrray by spliting
+        const bearerToken = bearer[1];
+        req.token = bearerToken;
+        //call next middleware
+        //console.log(req.token);
+
+
+        jwt.verify(req.token, 'SuperSecRetKey', (err, authData)=>{
+        if(err){
+            console.log(req.token);
+            res.sendStatus(403);
+        }else{
+            res.json({
+                msg: "A new post is created",
+                authData
+            });
+        }
+    });
+    }else{
+        res.sendStatus(403);
+    };
+    
+
+
+       /*jwt.verify(req.token, 'SuperSecRetKey', (err, authData)=>{
+        if(err){
+            console.log(req.token);
+            res.sendStatus(403);
+        }else{
+            res.json({
+                msg: "A new post is created",
+                authData
+            });
+        }*/
+   // });
+  },
   DeleteUser:function(req,res){
       var user_id = req.params.id;
     var sql = "DELETE FROM `TB_USER` WHERE ID_Utilisateur  = '"+user_id+"' ";

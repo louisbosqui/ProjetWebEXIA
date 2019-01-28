@@ -1,16 +1,24 @@
 
 <?php 
-$client = new GuzzleHttp\Client();
-$res = $client->request('GET', 'https://api.github.com/user', [
-    'auth' => ['user', 'pass']
-]);
-echo $res->getStatusCode();
-// "200"
-echo $res->getHeader('content-type');
-// 'application/json; charset=utf8'
-echo $res->getBody();
-// {"type":"User"...'
+require ('./vendor/autoload.php');
+ $client = new GuzzleHttp\Client();
+  $res = $client->get('http://127.0.0.1:8080/api/users/', [
+     
+  ]);
+  echo $res->getStatusCode();           // 200
+echo $res->getHeader('content-type'); // 'application/json; charset=utf8'
+echo $res->getBody();    
 
+/*$res = $client->post('http://127.0.0.1:8080/api/users/', [
+    'auth' =>  ['user', 'pass']
+]);
+ $res = $client->put('http://127.0.0.1:8081/api/users/',- [
+     'ID' => 1 ,
+     'Mdp'=> 'ok'
+ ]);*/
+             // {"type":"User"...'
+//var_export($res->json()); 
+//exit();
 ?>
 
 

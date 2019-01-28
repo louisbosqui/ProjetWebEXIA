@@ -7,7 +7,16 @@ var con=require('./bdd'); //reference of dbconnection.js
     if (err) throw err;
     res.send(result);
 });
-});*/
+});
+
+
+   var user_id = req.params.id;
+    var sql = "DELETE FROM `TB_USER` WHERE ID_Utilisateur  = '"+user_id+"' ";
+    con.query(sql, function (err, result) {
+      if (err) throw err;
+      res.send(result);
+
+*/
 const jwt = require('jsonwebtoken');
 
 
@@ -16,14 +25,40 @@ const jwt = require('jsonwebtoken');
 
 let USER = {
   Signin:function(req,res){
-     const user = {
+     /*const user = {
         id: 2,
         username: "Ammar",
         email: "john.doe@test.com"
-    }
-     jwt.sign({user},'secret', { expiresIn: 60 * 60 * 60 }, (err, token) => {
+    } */const user = {
+        username:req.body.Nom,
+        email: req.body.Mail,
+        mdp : req.body.mdp
+    };
+    let user_mail = req.body.Mail;
+
+    let sql = "SELECT *  FROM `TB_USER` WHERE Mail_Utilisateur = '"+user_mail+"' ";
+    con.query(sql, function (err, result) { 
+      if (err){
+        console.log("err");
+        throw err;
+      } 
+       console.log(result);
+      // //res.send(result);
+      //  console.log(result[0].Nom_Utilisateur);
+      //  console.log(user.username);
+      //  console.log(result[0].Mdp_Utilisateur);
+      //  console.log(user.mdp);
+       if(/*result[0].Nom_Utilisateur == user.username && */result[0].Mdp_Utilisateur == user.mdp ){
+        
+        //console.log("condition validée");
+        jwt.sign({user},'secret', { expiresIn: 60 * 60 * 60 }, (err, token) => {
         res.json({token});
+
     });
+      }
+    });
+
+     
   },
   test:function(req,res){
         //Request header with authorization key
@@ -54,9 +89,6 @@ let USER = {
     }else{
         res.sendStatus(403);
     };
-    
-
-
        /*jwt.verify(req.token, 'SuperSecRetKey', (err, authData)=>{
         if(err){
             console.log(req.token);

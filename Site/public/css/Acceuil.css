@@ -1,0 +1,23 @@
+*{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+/* Container holding the image and the text */
+.container-slide {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+
+.container-slide img {
+    width: 100%;
+}
+
+.centered {
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

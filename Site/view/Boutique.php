@@ -21,7 +21,7 @@ class boutique
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
 </head>
 <body>
-<?php include "Header.html";?>
+<?php include "Header.php";?>
 
 	<div class="sidenav">
 		<br>
@@ -109,6 +109,7 @@ class boutique
             </div>
 	</div>
 
-<?php include "footer.html";?>
+
 </body>
+<?php include "footer.php";?>
 </html>

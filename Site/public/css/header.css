@@ -1,4 +1,7 @@
 /*header*/
+*{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
 
     .header {
         height: 100px;

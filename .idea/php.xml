@@ -2,14 +2,14 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/Site/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/Site/vendor/composer" />
-      <path value="$PROJECT_DIR$/Site/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/Site/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/Site/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/Site/vendor/guzzle/guzzle" />
       <path value="$PROJECT_DIR$/Site/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/Site/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/Site/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Site/vendor/composer" />
+      <path value="$PROJECT_DIR$/Site/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Site/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
 </project>

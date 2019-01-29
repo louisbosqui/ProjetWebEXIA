@@ -16,7 +16,7 @@
 		</form>
 		<p class = "text1">Vous n'avez pas de compte?</p>
 		<div class = "link">
-			<a href="Inscription.html" title="S'incrire au site BDE de l'EXIA CESI Aix">S'incrire</a>
+			<a href="Inscription.php" title="S'incrire au site BDE de l'EXIA CESI Aix">S'incrire</a>
 		</div>		
 	</div>
 </body>

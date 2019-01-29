@@ -21,7 +21,7 @@ class produit
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
 </head>
 <body>
-<?php include "Header.html";?>
+<?php include "Header.php";?>
 
 
 	<div class="main">
@@ -35,6 +35,6 @@ class produit
             </div>
 	</div>
 
-<?php include "footer.html";?>
+<?php include "footer.php";?>
 </body>
 </html>

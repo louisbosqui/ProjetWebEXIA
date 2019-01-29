@@ -1,3 +1,21 @@
+
+<?php
+
+/**
+ *
+ */
+
+
+
+
+class contact
+{
+
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +23,10 @@
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="../public/css/Contact.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
 </head>
 <div>
+    <?php include "Header.php";?>
 <div class="general-container">
     <div class="top-container">
         <span class="title1">Contactez nous ou venez nous directement nous voir</span>
@@ -48,6 +68,6 @@
         <p align="center"><iframe src="https://maps.google.com/maps?width=100%&amp;height=800&amp;hl=en&amp;q=Pavillon%20Martel%2C%20Europ%C3%B4le%20de%20l'Arbois%2C%2013545%20Aix-en-Provence%2C%20France+(CESI)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" scrolling="no"></iframe></p>
     </div>
 </div>
-
+<?php include "footer.php";?>
 </body>
 </html>

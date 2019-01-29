@@ -51,6 +51,7 @@
 
         <div class="rightText">
             <p>
+                <a href="Conf.php">Mentions Légales</a>
                 <i class="far fa-copyright"></i>
                 CESI 2019
             </p>

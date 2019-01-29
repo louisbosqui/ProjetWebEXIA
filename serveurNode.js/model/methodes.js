@@ -35,29 +35,42 @@ let USER = {
         mdp : req.body.mdp
     };
     let user_mail = req.body.Mail;
-    console.log(user_mail);
-    let sql = "SELECT *  FROM `TB_USER` WHERE Mail_Utilisateur = '"+user_mail+"' ";
+    //console.log(user_mail);
+    let sql = "SELECT * FROM `TB_USER` WHERE Mail_Utilisateur = '"+user_mail+"' ";
     con.query(sql, function (err, result) { 
-      if (err){
-        console.log("err");
-        throw err;
-      } 
-      console.log(result);
+      if (err) throw err ;
+      if(!result.length){
+               console.log("error");
+                res.send("Mauvais mail");
+                 //return ;
+      }else {
+              //res.send(result);}
+              if(/*result[0].Nom_Utilisateur == user.username && */  result[0].Mdp_Utilisateur == user.mdp ){        
+            console.log("condition validée");
+              jwt.sign({user},'secret', { expiresIn: 60 * 60 * 60 }, (err, token) => {
+                res.json({token});
+                });
+              } else {
+                res.send("Mauvais mot de passe");
+              }
+
+
+            };  
+      
       // //res.send(result);
       //  console.log(result[0].Nom_Utilisateur);
       //  console.log(user.username);
       //  console.log(result[0].Mdp_Utilisateur);
       //  console.log(user.mdp);
-      /*if(result.hasOwnProperty()){
-            res.json("error");
-      }else if(/*result[0].Nom_Utilisateur == user.username && */  //result[0].Mdp_Utilisateur == user.mdp ){        
+      
+      //}else if(/*result[0].Nom_Utilisateur == user.username && */  //result[0].Mdp_Utilisateur == user.mdp ){        
             //console.log("condition validée");
         /*    jwt.sign({user},'secret', { expiresIn: 60 * 60 * 60 }, (err, token) => {
                 res.json({token});
                 });
           }*/
-      return ;});   
-  },
+       });   
+  return;},
   test:function(req,res){
         //Request header with authorization key
     const bearerHeader = req.headers['authorization'];

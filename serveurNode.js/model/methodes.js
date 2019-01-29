@@ -35,30 +35,28 @@ let USER = {
         mdp : req.body.mdp
     };
     let user_mail = req.body.Mail;
-
+    console.log(user_mail);
     let sql = "SELECT *  FROM `TB_USER` WHERE Mail_Utilisateur = '"+user_mail+"' ";
     con.query(sql, function (err, result) { 
       if (err){
         console.log("err");
         throw err;
       } 
-       console.log(result);
+      console.log(result);
       // //res.send(result);
       //  console.log(result[0].Nom_Utilisateur);
       //  console.log(user.username);
       //  console.log(result[0].Mdp_Utilisateur);
       //  console.log(user.mdp);
-       if(/*result[0].Nom_Utilisateur == user.username && */result[0].Mdp_Utilisateur == user.mdp ){
-        
-        //console.log("condition validée");
-        jwt.sign({user},'secret', { expiresIn: 60 * 60 * 60 }, (err, token) => {
-        res.json({token});
-
-    });
-      }
-    });
-
-     
+      /*if(result.hasOwnProperty()){
+            res.json("error");
+      }else if(/*result[0].Nom_Utilisateur == user.username && */  //result[0].Mdp_Utilisateur == user.mdp ){        
+            //console.log("condition validée");
+        /*    jwt.sign({user},'secret', { expiresIn: 60 * 60 * 60 }, (err, token) => {
+                res.json({token});
+                });
+          }*/
+      return ;});   
   },
   test:function(req,res){
         //Request header with authorization key

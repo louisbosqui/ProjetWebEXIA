@@ -7,9 +7,10 @@
 <body>
 	<div class = "wrap">
 		<h2>Connectes toi</h2>
-		<form>
-			<input type="text" placeholder="Adresse Email" required>
-			<input type="password" placeholder="Mot De passe" required>
+		<form action = "../contro/action.php" method="post">
+			<input type="text" placeholder="Adresse Email" name="mail" required>
+			<input type="text" placeholder="Nom" name="nom" required>
+			<input type="password" placeholder="Mot De passe" name="mdp"required>
 			<input name="btn1" type="submit" value="Connexion">
 			<br><br><br>
 		</form>

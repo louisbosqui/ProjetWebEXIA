@@ -6,7 +6,7 @@
 
 
 
-class BAI
+class Gestion
 {
 
 }
@@ -23,8 +23,8 @@ class BAI
 <?php include "Header.php";?>
 
 <div class="container-slide">
-    <button class="button3" onclick="location.href='Proposition.php'">Proposer une idée d'activité</button>
-    <button class="button4" onclick="location.href='ListeActivites.php'">Voir les idées d'activtés</button>
+    <button class="button3" onclick="location.href='Proposition.php'">Boutique</button>
+    <button class="button4" onclick="location.href='ListeActivites.php'">Evenements</button>
 </div>
 
 

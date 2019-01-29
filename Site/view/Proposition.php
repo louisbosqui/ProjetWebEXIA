@@ -26,7 +26,7 @@ class BAI
     <form>
         <input class="nom" type="text" placeholder="Nom de l'activité" required>
         <input class="description" type="text" placeholder="Description de l'activité" required>
-        <input class="date" type="date" id="start" name="act-start" value="2019-01-30" min="2019-01-01" max="2025-12-31">
+        Date de l'activité:<input class="date" type="date" id="start" name="act-start" value="2019-01-30" min="2019-01-01" max="2025-12-31">
         <input class="submit" type="submit" value="Proposer">
     </form>
 </div>

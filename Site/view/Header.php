@@ -47,7 +47,7 @@ echo $res->getBody();
                         <li><a href="Boutique.php">Boutique</a></li>
                         <li><a href="BAI.php">Boîte à idée</a></li>
                         <li><a href="Connexion.php">Authentification</a></li>
-                        <?php if($_SESSION['statut']=2): ?>
+                        <?php if($_SESSION['statut']==2): ?>
                         <li><a href="Gestion.php">Gestion</a></li>
                         <?php endif ?>
 

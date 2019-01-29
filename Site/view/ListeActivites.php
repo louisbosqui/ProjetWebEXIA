@@ -25,11 +25,11 @@ class ListeActivites
 <div class="container-slide">
     <div class="box">
         <ul>
-            <li><a href="Produit.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Produit"> </a></li>
-            <li><a href="Produit.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Produit"> </a></li>
-            <li><a href="Produit.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Produit"> </a></li>
-            <li><a href="Produit.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Produit"> </a></li>
-            <li><a href="Produit.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Produit"> </a></li>
+            <li><a href="Activite.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Activite"> </a></li>
+            <li><a href="Activite.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Activite"> </a></li>
+            <li><a href="Activite.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Activite"> </a></li>
+            <li><a href="Activite.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Activite"> </a></li>
+            <li><a href="Activite.php"> <div class="title"> Activité </div> <img src="../assets/img/airsoft.jpg" alt="Activite"> </a></li>
         </ul>
     </div>
 </div>

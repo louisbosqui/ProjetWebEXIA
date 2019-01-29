@@ -23,8 +23,8 @@ class Gestion
 <?php include "Header.php";?>
 
 <div class="container-slide">
-    <button class="button3" onclick="location.href='Proposition.php'">Boutique</button>
-    <button class="button4" onclick="location.href='ListeActivites.php'">Evenements</button>
+    <button class="button3" onclick="location.href='GestBoutique.php'">Boutique</button>
+    <button class="button4" onclick="location.href='GestActivites.php'">Evenements</button>
 </div>
 
 

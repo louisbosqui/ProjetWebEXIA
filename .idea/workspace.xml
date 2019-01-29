@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5483fc7a-b6ef-4a9b-9e49-95a4e2a2c16c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ProjetWebEXIA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetWebEXIA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Site/view/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Site/view/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Site/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Site/view/Header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="12" selection-start-line="11" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" selection-start-line="16" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="riviere-lucas &lt;33116227+riviere-lucas@users.noreply.github.com&gt;" />
+        <option value="rivie &lt;lucas.riviere@viacesi.fr&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Site/view/Header.php" />
+        <option value="$PROJECT_DIR$/code.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Site/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Site/vendor/composer" />
+      <path value="$PROJECT_DIR$/Site/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Site/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Site/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Site/vendor/guzzle/guzzle" />
+      <path value="$PROJECT_DIR$/Site/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Site/vendor/psr/http-message" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="824" />
+    <option name="y" value="88" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjetWebEXIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetWebEXIA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetWebEXIA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetWebEXIA" type="462c0819:PsiDirectoryNode" />
+              <item name="Site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5483fc7a-b6ef-4a9b-9e49-95a4e2a2c16c" name="Default Changelist" comment="" />
+      <created>1547709346354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547709346354</updated>
+      <workItem from="1547709347852" duration="1600000" />
+      <workItem from="1547728567138" duration="4425000" />
+      <workItem from="1547739999485" duration="1267000" />
+      <workItem from="1547800218353" duration="16906000" />
+      <workItem from="1547832157566" duration="2202000" />
+      <workItem from="1548058841378" duration="4030000" />
+      <workItem from="1548144360580" duration="13727000" />
+      <workItem from="1548235647496" duration="57000" />
+      <workItem from="1548248633306" duration="3534000" />
+      <workItem from="1548259660444" duration="611000" />
+      <workItem from="1548318723700" duration="2879000" />
+      <workItem from="1548406818787" duration="2543000" />
+      <workItem from="1548421441717" duration="90000" />
+      <workItem from="1548421640894" duration="720000" />
+      <workItem from="1548687102402" duration="1420000" />
+      <workItem from="1548754663268" duration="1441000" />
+    </task>
+    <task id="LOCAL-00001" summary="footer">
+      <created>1547804943826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547804943826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="footer">
+      <created>1547817955431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547817955431</updated>
+    </task>
+    <task id="LOCAL-00003" summary="footer">
+      <created>1547821070920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547821070920</updated>
+    </task>
+    <task id="LOCAL-00004" summary="footer et header v1.0">
+      <created>1547821118769</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547821118769</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ajout image">
+      <created>1547821247144</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547821247144</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ajout image">
+      <created>1548076821108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548076821108</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ajout image">
+      <created>1548078600031</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548078600031</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ajout image">
+      <created>1548078682001</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548078682002</updated>
+    </task>
+    <task id="LOCAL-00009" summary="header et footer">
+      <created>1548149565385</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548149565385</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ngvhufjn,;">
+      <created>1548150076102</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548150076102</updated>
+    </task>
+    <task id="LOCAL-00011" summary="blal">
+      <created>1548150384184</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548150384184</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test">
+      <created>1548150850522</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1548150850522</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2540000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10170394" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49627262" weight="0.32669324" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32968128" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5037274" side_tool="true" weight="0.32669324" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32978722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32960597" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06396589" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4989339" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.32978722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="footer" />
+    <MESSAGE value="footer et header v1.0" />
+    <MESSAGE value="ajout image" />
+    <MESSAGE value="header et footer" />
+    <MESSAGE value="ngvhufjn,;" />
+    <MESSAGE value="blal" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/css.css" />
+    <entry file="file://$PROJECT_DIR$/test.txt" />
+    <entry file="file://$PROJECT_DIR$/boutique.sublime-workspace">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home.php" />
+    <entry file="file://$PROJECT_DIR$/Cesi_Logo_INGENIEUR_quadri.png" />
+    <entry file="file://$PROJECT_DIR$/Header.php" />
+    <entry file="file://$PROJECT_DIR$/Site/style1.css" />
+    <entry file="file://$PROJECT_DIR$/action.php" />
+    <entry file="file://$PROJECT_DIR$/Site/sidebare.js" />
+    <entry file="file://$PROJECT_DIR$/boutique.html" />
+    <entry file="file://$PROJECT_DIR$/Site/boutique.css" />
+    <entry file="file://$PROJECT_DIR$/Site/Logo.jpg" />
+    <entry file="file://$PROJECT_DIR$/Site/Connexion.html" />
+    <entry file="file://$PROJECT_DIR$/Site/footer.html" />
+    <entry file="file://$PROJECT_DIR$/Site/header.css" />
+    <entry file="file://$PROJECT_DIR$/Site/Header.html" />
+    <entry file="file://$PROJECT_DIR$/Site/Boutique.html" />
+    <entry file="file://$PROJECT_DIR$/Site/Slider.css" />
+    <entry file="file://C:/xampp/htdocs/Site/Boutique.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/banner.jpg" />
+    <entry file="file://$PROJECT_DIR$/Site/Slider.css~d745ff6b72ca7603256591dfcd19c55d36281e74" />
+    <entry file="file://$PROJECT_DIR$/Site/sidebare.js~d745ff6b72ca7603256591dfcd19c55d36281e74" />
+    <entry file="file://$PROJECT_DIR$/Site/style2.css" />
+    <entry file="file://$PROJECT_DIR$/serveurNode.js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sliders.html" />
+    <entry file="file://$PROJECT_DIR$/Site/Contact.html" />
+    <entry file="file://$PROJECT_DIR$/Site/Contact.css" />
+    <entry file="file://$PROJECT_DIR$/Site/Boutique.php" />
+    <entry file="file://$PROJECT_DIR$/Site/Inscription.html" />
+    <entry file="file://$PROJECT_DIR$/Site/Connexion.php" />
+    <entry file="file://$PROJECT_DIR$/Site/view/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

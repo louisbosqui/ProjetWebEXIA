@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>footer</title>
-    <link rel="stylesheet" type="text/css" href="header.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-</head>
-<body>
+
+
+
     <footer>
+        <meta charset="UTF-8">
+        <title>footer</title>
+        <link rel="stylesheet" type="text/css" href="../public/css/header.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <!-- First text -->
         <p class="textFooter">CESI EXIA - Pavillon Martel, Europôle de l'arbois, 13545 Aix-en-Provence, France</p>
         <!--URL of schools-->
@@ -53,10 +51,9 @@
 
         <div class="rightText">
             <p>
+                <a href="Conf.php">Mentions Légales</a>
                 <i class="far fa-copyright"></i>
                 CESI 2019
             </p>
         </div>
     </footer>
-</body>
-</html>

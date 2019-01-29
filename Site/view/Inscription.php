@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>SITE WEB BDE</title>
-	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="../public/css/style1.css">
 </head>
 <body>
 	<div class = "wrap">
@@ -21,12 +21,13 @@
   				</select>
 			</div>
 			<input type="password" placeholder="Code Statut" required>
+            <input type="checkbox" name="check" value="check1" required>   J'ai lu et accepte les <a href="Cond.php">conditions d'utilisations</a> et les <a href="Conf.php">mentions légales</a><br>
 			<input name="btn1" type="submit" value="Inscription">
 			<br><br><br>
 		</form>
 		<p class = "text1">Vous avez déjà un compte?</p>
 		<div class = "link">
-			<a href="Connexion.html" title="Se connecter au site BDE de l'EXIA CESI Aix">Se connecter</a>
+			<a href="Connexion.php" title="Se connecter au site BDE de l'EXIA CESI Aix">Se connecter</a>
 		</div>		
 	</div>
 </body>

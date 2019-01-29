@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>SITE WEB BDE</title>
-	<link rel="stylesheet" href="style1.css">
+	<link rel="stylesheet" href="../public/css/style1.css">
 </head>
 <body>
 	<div class = "wrap">
@@ -15,7 +15,7 @@
 		</form>
 		<p class = "text1">Vous n'avez pas de compte?</p>
 		<div class = "link">
-			<a href="Inscription.html" title="S'incrire au site BDE de l'EXIA CESI Aix">S'incrire</a>
+			<a href="Inscription.php" title="S'incrire au site BDE de l'EXIA CESI Aix">S'incrire</a>
 		</div>		
 	</div>
 </body>

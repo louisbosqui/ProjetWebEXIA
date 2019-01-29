@@ -1,5 +1,9 @@
+*{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
 .general-container {
-    background-image: url("Sans titre.png");
+    background-image: url("../../assets/img/Sans titre.png");
     background-repeat: no-repeat;
  
 }

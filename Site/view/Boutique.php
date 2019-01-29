@@ -85,6 +85,7 @@ class boutique
 	<div class="main">
 		  <h2>Boutique Officielle</h2>
 		    <div class="box">
+                
                 <ul>
                     <li><a href="Produit.php"> <div class="title"> Produit </div> <img src="../assets/img/Produit.jpg" alt="Produit"> </a></li>
                     <li><a href="Produit.php"> <div class="title"> Produit </div> <img src="../assets/img/Produit.jpg" alt="Produit"> </a></li>
